@@ -47,3 +47,21 @@
     width: 140px;
     padding: 20px;
 }
+
+.dept-content:hover
+{
+    background-color: var(--bs-primary);
+    transition: linear 0.25s;
+}
+
+.dept-content:hover a
+{
+    color: white;
+}
+
+
+.dept-content:hover .dept-logo
+{
+    width: 150px;
+    transition: ease-in 0.1s;
+}
